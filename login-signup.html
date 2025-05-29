@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linkora</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title-wrapper">
+      <img src="pictures/logo.png" alt="Logo" class="logo">
+      <div class="title">Linkora</div>
+    </div>
+    <div class="subtitle">Connect with friends, share moments, and discover new experiences on Linkora.</div>
+
+    <div class="tabs">
+      <button class="tab active" onclick="showForm('login')">Login</button>
+      <button class="tab" onclick="showForm('signup')">Sign up</button>
+    </div>
+
+    <form id="login" class="form active">
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required>
+      </div>
+      <a href="#">Forgot password?</a>
+      <button class="btn" type="submit"><a href="T3L1-2_Felipe_CS3A/newsfeed.html">Log in</a></button>
+    </form>
+
+    <form id="signup" class="form">
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required>
+      </div>
+      <div class="upload-group">
+        <div class="upload-icon"><img src="pictures/upload.jpg" height="40" width="40"></div>
+        <div class="upload-icon">?</div>
+      </div>
+      <button class="btn" type="submit">Sign Up</button>
+    </form>
+
+    <div class="footer">
+      By continuing, you agree to our Terms of Service and Privacy Policy.
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
